@@ -1,266 +1,471 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lens Studio | Fotografía Profesional</title>
+
+    <title>Lens Studio | Fotografía y Video Profesional</title>
+
+    <meta name="description"
+        content="Lens Studio - Fotografía y video profesional para bodas, XV años, retratos, eventos y mucho más.">
+
+    <meta name="keywords"
+        content="Fotografía, Video, Bodas, XV Años, Retratos, Lens Studio">
+
+    <meta name="author" content="Lens Studio">
 
     <!-- Google Fonts -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <!-- CSS -->
+
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Iconos -->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
 </head>
 
 <body>
 
-<header>
+    <!--=========================================
+                    HEADER
+    ==========================================-->
 
-    <div class="logo">
-        <span>Lens</span> Studio
-    </div>
+    <header id="header">
 
-    <nav>
+        <div class="container header-container">
 
-        <a href="#inicio">Inicio</a>
-        <a href="#colecciones">Colecciones</a>
-        <a href="#sobre">Sobre mí</a>
-        <a href="#contacto">Contacto</a>
+            <a href="#" class="logo">
 
-    </nav>
+                <span>LENS</span> STUDIO
 
-    <a href="https://wa.me/523221502021" target="_blank" class="btn-header">
-        WhatsApp
-    </a>
+            </a>
 
-</header>
+            <nav id="navbar">
 
-<!-- HERO -->
+                <ul>
 
-<section class="hero" id="inicio">
+                    <li><a href="#inicio">Inicio</a></li>
 
-    <div class="overlay"></div>
+                    <li><a href="#esencia">Nuestra esencia</a></li>
 
-    <div class="hero-texto">
+                    <li><a href="#colecciones">Colecciones</a></li>
 
-        <h1>Capturando historias a través de la fotografía</h1>
+                    <li><a href="#experiencia">Experiencia</a></li>
 
-        <p>
-            Cada imagen cuenta una emoción,
-            cada sesión crea un recuerdo para toda la vida.
-        </p>
+                    <li><a href="#contacto">Contacto</a></li>
 
-        <a href="#colecciones" class="btn">
-            Explorar Galería
+                </ul>
+
+            </nav>
+
+            <a href="https://wa.me/523221502021"
+                target="_blank"
+                class="btn-header">
+
+                WhatsApp
+
+            </a>
+
+            <div class="menu">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!--=========================================
+                    HERO
+    ==========================================-->
+
+    <section class="hero" id="inicio">
+
+        <!-- Imagen principal -->
+
+        <img src="imagenes/hero.jpg"
+            alt="Lens Studio"
+            class="hero-image">
+
+        <!-- Oscurecer imagen -->
+
+        <div class="hero-overlay"></div>
+
+        <!-- Contenido -->
+
+        <div class="container hero-content">
+
+            <p class="hero-subtitle">
+
+                FOTOGRAFÍA • FILM • CONTENIDO
+
+            </p>
+
+            <h1>
+
+                Cada historia merece ser recordada para siempre.
+
+            </h1>
+
+            <p class="hero-description">
+
+                Capturamos emociones reales mediante fotografía y video
+                con una estética elegante, natural y cinematográfica.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#colecciones"
+                    class="btn-primary">
+
+                    Explorar colecciones
+
+                </a>
+
+                <a href="#contacto"
+                    class="btn-secondary">
+
+                    Agenda tu sesión
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Flecha -->
+
+        <a href="#esencia" class="scroll-down">
+
+            <i class="fa-solid fa-chevron-down"></i>
+
         </a>
 
-    </div>
+    </section>
 
+        <!--=========================================
+                NUESTRA ESENCIA
+    ==========================================-->
 
-</section>
+    <section class="about" id="esencia">
 
-<!-- COLECCIONES -->
+        <div class="container about-container">
 
-<section class="colecciones" id="colecciones">
+            <div class="about-image">
 
-<h2>Mis Colecciones</h2>
+                <img src="imagenes/portada.jpeg" alt="Nuestra esencia">
 
-<div class="contenedor">
+            </div>
 
-<!-- BODAS -->
+            <div class="about-text">
 
-<div class="card">
+                <span>NUESTRA ESENCIA</span>
 
-<img src="imagenes/bodas/1.jpeg">
+                <h2>
+                    No capturamos únicamente imágenes.
+                    Capturamos emociones.
+                </h2>
 
-<div class="info">
+                <p>
+                    En Lens Studio creemos que cada fotografía debe transmitir
+                    la misma emoción que se vivió en ese instante.
+                    Nuestro objetivo es crear recuerdos auténticos,
+                    elegantes y atemporales.
+                </p>
 
-<h3>Bodas</h3>
+                <p>
+                    Cada sesión está pensada para que disfrutes el momento
+                    mientras nosotros nos encargamos de contar tu historia.
+                </p>
 
-<p>
-Historias de amor capturadas para siempre.
-</p>
+            </div>
 
-<a href="bodas.html">
-Ver colección
-</a>
+        </div>
 
-</div>
+    </section>
 
-</div>
+    <!--=========================================
+                COLECCIONES
+    ==========================================-->
 
-<!-- XV AÑOS -->
+    <section class="collections" id="colecciones">
 
-<div class="card">
+        <div class="container">
 
-    <img src="imagenes/xv/portada.png" alt="XV Años">
+            <div class="section-title">
 
-    <div class="info">
+                <span>NUESTRO TRABAJO</span>
 
-        <h3>XV Años</h3>
+                <h2>Colecciones</h2>
 
-        <p>
-            Capturamos cada momento especial de una celebración inolvidable.
-        </p>
+            </div>
 
-        <a href="xv.html">
-            Ver colección
-        </a>
+            <div class="grid">
 
-    </div>
+                <a href="bodas.html" class="card">
 
-</div>
+                    <img src="imagenes/bodas/portada.png" alt="Bodas">
 
-<!-- RETRATOS -->
+                    <div class="shine"></div>
 
-<div class="card">
+                    <div class="card-content">
 
-<img src="imagenes/retrato/portada.jpg">
+                        <h3>Bodas</h3>
 
-<div class="info">
+                        <p>Historias de amor inolvidables.</p>
 
-<h3>Retratos</h3>
+                    </div>
 
-<p>
-Sesiones personales y profesionales.
-</p>
+                </a>
 
+                <a href="xv.html" class="card">
 
-<a href="retratos.html">
-Ver colección
-</a>
+                    <img src="imagenes/xv/portada.png" alt="XV">
 
-</div>
+                    <div class="shine"></div>
 
-</div>
+                    <div class="card-content">
 
-<!-- EVENTOS -->
+                        <h3>XV Años</h3>
 
-<div class="card">
+                        <p>Momentos únicos para toda la vida.</p>
 
-<img src="imagenes/eventos/por.png">
+                    </div>
 
-<div class="info">
+                </a>
 
-<h3>Eventos</h3>
+                <a href="retratos.html" class="card">
 
-<p>
-Momentos especiales que nunca olvidarás.
-</p>
+                    <img src="imagenes/retratos/portada.jpg" alt="Retratos">
 
-<a href="eventos.html">
-Ver colección
-</a>
+                    <div class="shine"></div>
 
-</div>
+                    <div class="card-content">
 
-</div>
+                        <h3>Retratos</h3>
 
-<!-- PAISAJES -->
+                        <p>La esencia de cada persona.</p>
 
-<div class="card">
+                    </div>
 
-<img src="imagenes/paisajes/por.png">
+                </a>
 
-<div class="info">
+                <a href="eventos.html" class="card">
 
-<h3>Paisajes</h3>
+                    <img src="imagenes/eventos/portada.png" alt="Eventos">
 
-<p>
-La belleza de la naturaleza en cada fotografía.
-</p>
+                    <div class="shine"></div>
 
-<a href="paisajes.html">
-Ver colección
-</a>
+                    <div class="card-content">
 
-</div>
+                        <h3>Eventos</h3>
 
-</div>
+                        <p>Recuerdos llenos de emoción.</p>
 
-<!-- NATURALEZA -->
+                    </div>
 
-<div class="card">
+                </a>
 
-<img src="imagenes/naturaleza/por.png">
+                <a href="paisajes.html" class="card">
 
-<div class="info">
+                    <img src="imagenes/paisajes/portada.png" alt="Paisajes">
 
-<h3>Naturaleza</h3>
+                    <div class="shine"></div>
 
-<p>
-Flora y fauna desde otra perspectiva.
-</p>
+                    <div class="card-content">
 
-<a href="naturaleza.html">
-Ver colección
-</a>
+                        <h3>Paisajes</h3>
 
-</div>
+                        <p>La belleza del mundo.</p>
 
-</div>
+                    </div>
 
-</div>
+                </a>
 
-</section>
+                <a href="naturaleza.html" class="card">
 
-<!-- SOBRE MI -->
+                    <img src="imagenes/naturaleza/portada.png" alt="Naturaleza">
 
-<section class="sobre" id="sobre">
+                    <div class="shine"></div>
 
-<div class="contenido">
+                    <div class="card-content">
 
-<h2>Sobre mí</h2>
+                        <h3>Naturaleza</h3>
 
-<p>
+                        <p>Detalles que inspiran.</p>
 
-Soy fotógrafo profesional especializado en capturar emociones,
-paisajes y momentos únicos. Mi objetivo es convertir cada
-fotografía en una experiencia inolvidable.
+                    </div>
 
-</p>
+                </a>
 
-</div>
+            </div>
 
-</section>
+        </div>
 
-<!-- CONTACTO -->
+    </section>
 
-<section class="contacto" id="contacto">
+    <!--=========================================
+            EXPERIENCIA LENS STUDIO
+    ==========================================-->
 
-    <h2>Contáctame</h2>
+    <section class="experience" id="experiencia">
 
-    <p class="texto-contacto">
-        ¿Te interesa una sesión fotográfica?
-        Escríbeme por WhatsApp y con gusto te responderé.
-    </p>
+        <div class="container">
 
-    <a href="https://wa.me/523221502021?text=Hola,%20me%20interesa%20una%20sesión%20fotográfica."
-       target="_blank"
-       class="whatsapp">
+            <div class="section-title">
 
-       📱 Enviar mensaje por WhatsApp
+                <span>¿POR QUÉ ELEGIRNOS?</span>
 
-    </a>
+                <h2>La experiencia Lens Studio</h2>
 
-</section>
+            </div>
 
-<footer>
+            <div class="experience-grid">
 
-<p>
-© 2026 Lens Studio | Todos los derechos reservados.
-</p>
+                <div class="experience-card">
 
-</footer>
+                    <i class="fa-solid fa-calendar-check"></i>
 
-<script>
-window.onload = function () {
-    window.scrollTo(0, 0);
-};
-</script>
+                    <h3>Planeación</h3>
+
+                    <p>
+                        Organizamos cada sesión para que todo fluya
+                        de manera natural.
+                    </p>
+
+                </div>
+
+                <div class="experience-card">
+
+                    <i class="fa-solid fa-camera"></i>
+
+                    <h3>Captura</h3>
+
+                    <p>
+                        Fotografías auténticas llenas de emoción
+                        y naturalidad.
+                    </p>
+
+                </div>
+
+                <div class="experience-card">
+
+                    <i class="fa-solid fa-film"></i>
+
+                    <h3>Edición</h3>
+
+                    <p>
+                        Color cinematográfico con un estilo elegante
+                        y atemporal.
+                    </p>
+
+                </div>
+
+                <div class="experience-card">
+
+                    <i class="fa-solid fa-heart"></i>
+
+                    <h3>Entrega</h3>
+
+                    <p>
+                        Recuerdos preparados para conservarse
+                        durante toda la vida.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--=========================================
+                CONTACTO
+    ==========================================-->
+
+    <section class="contact" id="contacto">
+
+        <div class="container contact-container">
+
+            <span>AGENDA TU SESIÓN</span>
+
+            <h2>Hablemos de tu próxima historia.</h2>
+
+            <p>
+                Cuéntanos tu idea y juntos crearemos recuerdos
+                que permanecerán para siempre.
+            </p>
+
+            <a href="https://wa.me/523221502021"
+                target="_blank"
+                class="btn-primary">
+
+                Solicitar información
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!--=========================================
+                FOOTER
+    ==========================================-->
+
+    <footer>
+
+        <div class="container footer-container">
+
+            <h3>
+                <span>LENS</span> STUDIO
+            </h3>
+
+            <p>
+                Fotografía • Film • Contenido
+            </p>
+
+            <div class="footer-social">
+
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+                <a href="#"><i class="fab fa-facebook"></i></a>
+
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+
+            </div>
+
+            <p class="copyright">
+
+                © 2026 Lens Studio. Todos los derechos reservados.
+
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!--=========================================
+                JAVASCRIPT
+    ==========================================-->
+
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>
